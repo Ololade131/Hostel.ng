@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body h2, h3, h4, h5, p, span{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image{
+  background-image: url(image/Rectangle\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .1);
+border: solid rgba(0, 0, 0, .15);
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-control-dark {
+color: #fff;
+background-color: var(--bs-dark);
+border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+color: #fff;
+background-color: var(--bs-dark);
+border-color: #fff;
+box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+vertical-align: -.125em;
+fill: currentColor;
+}
+
+.text-small {
+font-size: 85%;
+}
+
+.dropdown-toggle {
+outline: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.space {
+    padding: 1rem;
+}
+.bold{
+    font-weight: bold;
+}
+.s-bold{
+  font-weight: 500;
+}
+.right{
+  margin-left: 50rem;
+}
+.border{
+  padding: 1rem;
+  background-color: rgba(255, 185, 63, 0.44);
+  border-radius: 20px;
+  border-width: 1px;
+}
+.dark-color{
+  background-color: rgba(71, 71, 71, 0.53);
+}
+
+.search{
+position: absolute;
+top:75%;
+left: 30%;
+text-align:center;
+translate: (50%, -50%);
+max-width: 130%;
+background-color: rgba(228, 228, 228, 1);
+padding: 2em 3em;
+border-radius: 5px;
+
+}
+
+.border1
+{
+padding: 1rem;
+  background-color: #fff;
+  color:rgba(205, 149, 51, 1);
+  border-radius: 20px;
+  border-width: 1px; 
+}
+.border2
+{
+padding: 1rem;
+  background-color: #fff;
+  color:rgba(182, 142, 72, 1);
+  border-radius: 25px;
+  border-width: 1px; 
+
+}
+.border2 :hover{
+  background-color: #fff;
+  color:rgba(182, 142, 72, 1);
+  border-radius: 25px;
+  border-width: 1px; 
+  text-decoration-color: #000;
+}
+.border3
+{
+padding: 1rem;
+  background-color:rgba(205, 149, 51, 1);
+  border-radius: 20px;
+  border-width: 1px;
+  box-shadow: blue;
+ 
+}
+.border4
+{
+padding: 1rem;
+color: rgba(182, 142, 72, 1);
+  background-color: #fff;
+  border-radius: 20px;
+  border-width: 1px;
+  box-shadow: blue;
+}
+.border4:hover
+{
+padding: 1rem;
+color: rgba(182, 142, 72, 1);
+  background-color: #fff;
+  border-radius: 20px;
+  border-width: 1px;
+  box-shadow: blue;
+}
+
+
+* Globals
+*/
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+color: #333;
+text-shadow: none; /* Prevent inheritance from `ody` */
+}
+
+
+/*
+* Base structure
+*/
+
+
+
+.cover-container {
+max-width: 42em;
+}
+
+
+/*
+* Header
+*/
+
+.nav-masthead .nav-link {
+padding: .25rem 0;
+font-weight: 700;
+color: rgba(255, 255, 255, .5);
+background-color: transparent;
+border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+margin-left: 1rem;
+}
+
+.nav-masthead .active {
+color: #fff;
+border-bottom-color: #fff;
+}
+.text{
+  position: absolute;
+  top:300%;
+  left: 30%;
+  text-align:center;
+  translate: (50%, -50%);
+  max-width: 90%;
+  background: rgba(26, 33, 39, 0.56);
+  padding: 2em 3em
+ 
+  
+}
+
+h3{
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter  text */
+
+.content{
+ text-align:center;
+ align-items: center;
+ padding-top: 90px;
+}
+.content p{
+ color:rgba(182, 142, 72, 1);
+ padding-bottom: 20px;
+}
+.content1{
+padding-bottom: 30px;
+padding-top: 20px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+margin-bottom: 1.5rem;
+text-align: center;
+
+}
+.marketing h2 {
+font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+margin-right: .75rem;
+margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+font-weight: 300;
+line-height: 1;
+/* rtl:remove */
+letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+/* Bump up size of carousel content */
+.carousel-caption p {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+}
+
+@media (min-width: 62em) {
+.featurette-heading {
+  margin-top: 7rem;
+}
+}
+
+.text-2{
+padding-bottom: 70px;
+text-align: center;
+align-items: center;
+background: linear-gradient(rgb(175, 129, 51),rgba(205, 149, 51, 0.897)), url(image/back.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 75vh;
+width: 100%;
+}
+.text-2 h3{
+color: white;
+padding-top: 130px;
+
+}
+.text-2 h4{
+color: white;
+}
+.text-2 p{ 
+color: #000;
+}
+.me{
+padding-bottom: 5rem;
+}
+.form{
+position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.form-control me-4{
+width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.form-box{
+margin-top: 5rem;
+}
+.text-2 h3{
+color: white;
+padding-top: 130px;
+
+}
+.text-2 h4{
+color: white;
+}
+.text-2 p{ 
+color: #000;
+}
+.me{
+padding-bottom: 5rem;
+}
+form{
+  position: relative;
+  width: 90%;
+  margin-top: 10px;
+}
+.form-control me-4{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+  
+}
+.text-3{
+padding-top: 70px;
+text-align: center;
+align-items: center;
+}
+.text-3 p{
+color: rgba(205, 149, 51, 1);
+}
+.feature-icon {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 4rem;
+height: 4rem;
+margin-bottom: 1rem;
+font-size: 2rem;
+color: #fff;
+border-radius: .75rem;
+}
+
+.icon-link {
+display: inline-flex;
+align-items: center;
+}
+.icon-link > .bi {
+margin-top: .125rem;
+margin-left: .125rem;
+transition: transform .25s ease-in-out;
+fill: currentColor;
+}
+.icon-link:hover > .bi {
+transform: translate(.25rem);
+}
+
+.icon-square {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 3rem;
+height: 3rem;
+font-size: 1.5rem;
+border-radius: .75rem;
+}
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+
+.text-4 p{
+position:relative;
+padding-top: 70px;
+left: 40px;
+}
+.text-4 .icon{
+position:relative;
+padding-top: 70px;
+left: 35px;
+font-size: 40px;
+color: red;
+}
+.testimonial{
+width: 100%;
+padding-left: 1.5rem;
+padding-bottom: 5rem;
+padding-top: 2rem;
+}
+.expand{
+width: 100%;
+}
+.testimonial-box{
+padding: 2rem;
+}
+.form-border{
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+color: white;
+background-color: transparent;
+width: 100%;
+border-bottom-color: #fff;
+box-shadow: none;
+}
+
+::placeholder{
+color: #fff;
+opacity: 1;
+font-family: 'Montserrat';
+font-weight: 200;
+}
+
+.btn1 {
+border: 2px solid black;
+background-color: white;
+color: black;
+padding: 5px 35px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 30px;
+}
+.warning {
+border-color: rgba(255, 185, 63, 1);
+text-align: center;
+color: rgba(205, 149, 51, 1);
+}
+
+.warning:hover {
+background: transparent;
+color: white;
+border-color: white;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.col h5{
+  color: rgb(185, 142, 66);
+}
+span .trybe{
+  color:rgba(182, 142, 72, 1);
+}
+.card-body p{
+  color: rgba(205, 149, 51, 1);
+}
+.col-lg-4 p{
+  color:rgba(205, 149, 51, 1);
+}
+.expand a{
+  color: rgba(205, 149, 51, 1);
+  text-decoration: none;
+}
